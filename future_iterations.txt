@@ -1,0 +1,29 @@
+Iteration 1:
+- remove stopwords
+
+Iteration 2:
+- add lemamtization
+- add titles 
+- limit features in vector matrix
+
+Iteration 3:
+-
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Questions to ask: 
+
+Should it be fully optimized or somewhat optimized? 
+
+How many iterations 2 or 3?
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Justifications: 
+
+- Justify use of t-SNE
+-- Loo into t-SNE distribution for topic visualization
+-- Look into how the clusters reform by adjusting number of clusters
+
+
