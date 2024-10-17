@@ -13,17 +13,26 @@ Iteration 3:
 
 Questions to ask: 
 
-Should it be fully optimized or somewhat optimized? 
+* Should it be fully optimized or somewhat optimized? 
+* How many iterations 2 or 3?
+* 
 
-How many iterations 2 or 3?
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 Justifications: 
 
-- Justify use of t-SNE
--- Loo into t-SNE distribution for topic visualization
+* Justify use of t-SNE
+-- Look into t-SNE distribution for topic visualization
 -- Look into how the clusters reform by adjusting number of clusters
+
+* Bertopic is already pretrtained, so we decided to train our own word2vec model for better comparison.
+
+* Skipgram vs. CBOW
+ - Skipgram was chosen because the meaning of words is more meaningful for the topic than the grammar
+ - dataset size is relatively small
+ - skipgram is less prone to overfitting
+
 
 
