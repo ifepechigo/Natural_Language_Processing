@@ -1,5 +1,64 @@
+Defaults for models: unless specified otherwise
+5 topics 
+10 words
+
+Iteration 0:
+- lowercase
+- remove url
+- remove numbers
+- alpha words
+
+Conclusions: 
+Coherence matrix for Bertopic model didnt work / took too long to run. We assume this is because not enough preprocessing was done. 
+This resulted in too many words that needed to be compared against each other.
+
+ Topic: 
+ Topic with the most amount of documents contained mostly stopwords 
+ The topic with the least amount of doucments actually contained specific words such as nasdaq
+
+LDA
+diversity scores: 0.42
+coherence: 0.32
+interpretability: 0.13
+
+FLSA-W:
+diversity scores: 0.9
+coherence: 0.41
+interpretability: 0.37
+
+
+Bertopic 
+- Use default DistilBERT
+
+diversity scores: 0.9
+coherence: 0.41
+interpretability: 0.37
+
+
 Iteration 1:
 - remove stopwords
+
+Bertopic 
+- Use default DistilBERT
+
+diversity scores: 0.9
+coherence: 0.69
+interpretability: 0.622
+
+FLSA-W:
+diversity scores: 0.98
+coherence: 0.46
+interpretability: 0.456
+
+LDA
+diversity scores: 0.68
+coherence: 0.48
+interpretability: 0.32
+
+
+
+conclusion: 
+removing stopwords clearly changed our distribution. Meaning the removal worked properly
 
 Iteration 2:
 - add lemamtization
@@ -7,7 +66,8 @@ Iteration 2:
 - limit features in vector matrix
 
 Iteration 3:
--
+- Adjust number of topics 
+- adjust number of words per topic
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
