@@ -37,6 +37,9 @@ interpretability: 0.37
 
 Iteration 1:
 - remove stopwords
+- Adjust number of topics 
+- adjust number of words per topic
+# I decided to move these here since we can already make a decision based on the prev iteation.
 
 Bertopic 
 - Use default DistilBERT
@@ -66,8 +69,7 @@ Iteration 2:
 - limit features in vector matrix
 
 Iteration 3:
-- Adjust number of topics 
-- adjust number of words per topic
+- hyper parameter tuning
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
