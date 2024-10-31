@@ -2,7 +2,7 @@ Defaults for models: unless specified otherwise
 5 topics 
 10 words
 
-Iteration 0:
+**Iteration 0:
 - lowercase
 - remove url
 - remove numbers
@@ -27,15 +27,7 @@ coherence: 0.41
 interpretability: 0.37
 
 
-Bertopic 
-- Use default DistilBERT
-
-diversity scores: 0.9
-coherence: 0.41
-interpretability: 0.37
-
-
-Iteration 1:
+**Iteration 1:
 - remove stopwords
 - Adjust number of topics 
 - adjust number of words per topic
@@ -58,6 +50,12 @@ diversity scores: 0.68
 coherence: 0.48
 interpretability: 0.32
 
+Bertopic 
+- Use default DistilBERT
+
+diversity scores: 0.96
+coherence: 0.68
+interpretability: 0.37
 
 
 conclusion: 
@@ -66,7 +64,7 @@ removing stopwords clearly changed our distribution. Meaning the removal worked 
 Iteration 2:
 - add lemamtization
 - add titles 
-- limit features in vector matrix
+- limit features in vector matrix # I don't know what htis means (or don't remember)
 
 Iteration 3:
 - hyper parameter tuning
