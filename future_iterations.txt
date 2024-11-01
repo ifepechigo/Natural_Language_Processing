@@ -65,6 +65,8 @@ Iteration 2:
 - add lemamtization
 - add titles 
 - limit features in vector matrix # I don't know what htis means (or don't remember)
+#if it is for LDA i don't know if we should do it because then we are changing
+#the data so coherence and diversity would not be computable.
 
 Iteration 3:
 - hyper parameter tuning
